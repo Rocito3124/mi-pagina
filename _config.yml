@@ -1,0 +1,10 @@
+title: Mi Página
+description: Un sitio web con Jekyll
+baseurl: "" # deja vacío si tu sitio está en la raíz
+url: "https://rocito3124.github.io/tu-repo/"
+
+theme: jekyll-theme-primer
+
+exclude:
+  - snap/
+  - '**/.snap/'
