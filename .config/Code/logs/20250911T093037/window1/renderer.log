@@ -1,0 +1,15 @@
+2025-09-11 09:30:40.796 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-09-11 09:30:41.617 [info] Started local extension host with pid 8949.
+2025-09-11 09:30:41.905 [info] Started initializing default profile extensions in extensions installation folder. file:///home/rodrigo/.vscode/extensions
+2025-09-11 09:30:42.838 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/rodrigo/.vscode/extensions
+2025-09-11 09:30:46.195 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-09-11 09:30:47.462 [info] [perf] Render performance baseline is 110ms
+2025-09-11 09:35:21.120 [warning] Settings pattern "mcp" doesn't match any settings
+2025-09-11 09:35:21.121 [warning] SettingsEditor2: Settings not included in settingsLayout.ts: github.copilot.chat.agent.terminal.allowList, github.copilot.chat.agent.terminal.denyList
+2025-09-11 09:35:22.918 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-09-11 09:41:23.884 [warning] Settings pattern "mcp" doesn't match any settings
+2025-09-11 09:45:06.055 [warning] Settings pattern "mcp" doesn't match any settings
+2025-09-11 09:45:27.605 [warning] Settings pattern "mcp" doesn't match any settings
+2025-09-11 09:45:31.589 [warning] Settings pattern "mcp" doesn't match any settings
+2025-09-11 09:50:53.162 [warning] Settings pattern "mcp" doesn't match any settings
+2025-09-11 10:01:15.383 [warning] Settings pattern "mcp" doesn't match any settings

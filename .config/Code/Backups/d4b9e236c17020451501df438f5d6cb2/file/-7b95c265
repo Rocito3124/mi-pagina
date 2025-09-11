@@ -1,0 +1,23 @@
+file:///home/rodrigo/mi-pagina/style.css {"mtime":1757600900859,"ctime":1757600900859,"size":0,"etag":"3epo0m7ko0","orphaned":false,"typeId":""}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: linear-gradient(to right, #74ebd5, #9face6);
+    color: #333;
+    padding: 50px;
+}
+
+button{
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover{
+    background-color: #45a049;
+}
