@@ -2,22 +2,63 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Juego de Preguntas</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Pantalla con Video</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+    }
+    video {
+      position: fixed;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      min-height: 100%;
+      object-fit: cover; /* Hace que el video llene la pantalla */
+      z-index: -1; /* Lo manda al fondo */
+    }
+    .content {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      color: white;
+      font-size: 2em;
+      text-shadow: 2px 2px 5px black;
+    }
+    button {
+      margin: 10px;
+      padding: 15px 30px;
+      font-size: 1em;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      background: rgba(0,0,0,0.5);
+      color: white;
+      transition: background 0.3s;
+    }
+    button:hover {
+      background: rgba(255,255,255,0.3);
+    }
+  </style>
 </head>
 <body>
-  <div id="background-container">
-    <!-- Aquí se pondrá video o imagen -->
+  <!-- Video de fondo -->
+  <video autoplay muted loop>
+    <source src="assets/videos/Download (4).mp4" type="video/mp4">
+    Tu navegador no soporta video en HTML5.
+  </video>
+
+  <!-- Contenido encima del video -->
+  <div class="content">
+    <p>¿Quieres continuar?</p>
+    <button onclick="alert('Elegiste SÍ')">Sí</button>
+    <button onclick="alert('Elegiste NO')">No</button>
   </div>
-
-  <div id="question-panel">
-    <h1 id="question-text">¿Quieres empezar?</h1>
-    <button id="yes-btn">Sí</button>
-    <button id="no-btn">No</button>
-  </div>
-
-  <audio id="background-music" src="assets/audio/musica.mp3" autoplay loop></audio>
-
-  <script src="script.js"></script>
 </body>
 </html>
