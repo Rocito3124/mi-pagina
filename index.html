@@ -1,17 +1,23 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi página interactiva</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Juego de Preguntas</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Bienvenida a esta pagina</h1>
+  <div id="background-container">
+    <!-- Aquí se pondrá video o imagen -->
+  </div>
 
-    <button id="btn"> Haz click en mí</button>
-    <p id="mensaje"></p>
+  <div id="question-panel">
+    <h1 id="question-text">¿Quieres empezar?</h1>
+    <button id="yes-btn">Sí</button>
+    <button id="no-btn">No</button>
+  </div>
 
-    <script src="script.js"></script>
+  <audio id="background-music" src="assets/audio/musica.mp3" autoplay loop></audio>
+
+  <script src="script.js"></script>
 </body>
 </html>
